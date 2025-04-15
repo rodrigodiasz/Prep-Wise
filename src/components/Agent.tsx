@@ -107,6 +107,7 @@ const Agent = ({
       }
       await vapi.start(interviewer, {
         variableValues:{
+          assistant: interviewer,
           questions: formattedQuestions
         }
       })
